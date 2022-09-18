@@ -6,9 +6,11 @@ margin-top: 70px;
 margin-bottom:70px;
 margin-right:80px;
 margin-left:80px;
+line-height: 2;
 }
 p{
 text-indent:2em;
+line-height: 2;
 }
 header {
 text-align:center;
