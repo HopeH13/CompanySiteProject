@@ -1,22 +1,28 @@
 body{
-	background-color:lightgreen;
-	font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-	font-size:24px;
-	margin-top: 70px;
-	margin-bottom:70px;
-	margin-right:80px;
-	margin-left:80px;
-	}
-
+background-color:lightgreen;
+font-family: 'Montserrat', sans-serif;
+font-size:24px;
+margin-top: 70px;
+margin-bottom:70px;
+margin-right:80px;
+margin-left:80px;
+}
+p{
+text-indent:2em;
+}
 header {
-	text-align:center;
-	font-size:54px;
-	padding-top:10px;
-	padding-bottom:10px;
-	border:solid 2px;
-	grid-column-start:1;
-	grid-column-end:2;
-		}  
+text-align:center;
+font-size:54px;
+padding-top:10px;
+padding-bottom:10px;
+border:solid 2px;
+grid-column-start:1;
+grid-column-end:2;
+}  
+h2 {
+font-size:18px;
+text-align:center;
+}
 		
 
 
@@ -33,41 +39,41 @@ color:black;
 font-size:1.1em;
 }
 nav ul {
-	list-style-type:none;
+list-style-type:none;
 }
 
 article {
-	margin: auto;
-    width: 70%;
-    line-height: 1.5;
+margin: auto;
+width: 70%;
+line-height: 1.5;
 }
 a:hover {
-	color:black;
+color:black;
 }
 .column {
-	float:left;
-	width:25%;
+float:left;
+width:25%;
 }
 .row:after {
-	content:"";
-	display:table;
-	clear:both;
+content:"";
+display:table;
+clear:both;
 }
 .center {
-	width: 20%;
-	border-radius: 85px;
-	display: block;
-  margin-left: auto;
-  margin-right: auto;
+width: 20%;
+border-radius: 85px;
+display: block;
+margin-left: auto;
+margin-right: auto;
 }
 		
 .dropbtn {
-	background-color: #050505;
-	color: white;
-	padding: 16px;
-	font-size: 16px;
-	border: none;
-	cursor: pointer;
+background-color: #050505;
+color: white;
+padding: 16px;
+font-size: 16px;
+border: none;
+cursor: pointer;
   }
   
   .dropbtn:hover, .dropbtn:focus {
