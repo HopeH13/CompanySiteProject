@@ -24,8 +24,9 @@ h2 {
 font-size:16px;
 text-align:center;
 }
-h3{
-font-size:16px;
+h3 {
+font-size:15px;
+font-decoration:underline;
 }
 		
 .footer {
